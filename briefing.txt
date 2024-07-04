@@ -1,0 +1,18 @@
+tags de estilo do espelho
+range de tamanho e/ou preço?
+
+carrinho
+preço e quantidade
+cupom de desconto?
+
+tooltips
+
+preview do produto no hover?
+
+componentes:
+navbar
+lista de produtos
+    produto
+
+carrinho
+preview de produto?

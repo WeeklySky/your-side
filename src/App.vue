@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LogoImg></LogoImg>
+  <FiltersBar></FiltersBar>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FiltersBar from './components/FiltersBar.vue'
+import LogoImg from './components/LogoImg.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LogoImg,
+    FiltersBar
   }
 }
 </script>
@@ -23,6 +25,5 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 </style>
